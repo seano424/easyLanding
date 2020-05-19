@@ -1,0 +1,57 @@
+body {
+  font-family: 'Girassol', cursive;
+}
+
+.jumbotron {
+ background-image: url("https://source.unsplash.com/qtYhAQnIwSE/1200x600");
+ background-color: #cccccc;
+ background-repeat: no-repeat;
+ background-size: cover;
+ color: #f9ed43;
+}
+
+.header {
+  font-size: 9rem;
+  width: 45%;
+}
+
+.jumbotron h1 {
+  color: white;
+}
+
+.blockquote {
+  font-size: 3.5rem;
+  width: 45%;
+}
+
+.blockquote-footer {
+  color: #f9ed43;
+  font-size: 1.4rem;
+}
+
+.card {
+  border: none;
+}
+
+.fa-gem {
+  color: aqua;
+}
+
+.fa-suitcase {
+  color: mediumspringgreen;
+}
+
+.fa-avianex {
+  color: navajowhite;
+}
+
+@media (max-width: 991.98px) {
+  .blockquote {
+    font-size: 2.5rem;
+    width: 100%;
+  }
+  .header {
+    width: 50%;
+    font-size: 7rem;
+  }
+}
